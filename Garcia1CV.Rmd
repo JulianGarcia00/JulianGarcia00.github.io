@@ -1,0 +1,93 @@
+---
+name: Julian 
+surname: Garcia
+position: "Student"
+address: "1745 River Road Modesto CA"
+phone: +1 209 918 1492
+email: "garcia_julian94@yahoo.com"
+github: JulianGarcia00
+aboutme: "Veterinary Technician pursuing Veterinary School."
+header-includes:
+   - \usepackage{multicol}
+   - \usepackage{setspace}
+headcolor: 414141
+output: 
+  vitae::awesomecv:
+    page_total: true
+    
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+library(vitae)
+library (here)
+library(tidyverse)
+```
+
+# Education
+```{r education}
+tribble(
+  ~ degree, ~ uni, ~ loc, ~ dates,
+  "AS in Biological Sciences", "Modesto Junior College", "Modesto, CA", "2018", 
+  
+  "AA in Biological Sciences", "Modesto Junior College", "Modesto, CA", "2018", 
+  
+  "BS in Biological Sciences", "California State University, Stanislaus", "Turlock, CA", "2025", 
+  
+  "Minor in Chemistry ", "California State University, Stanislaus", "Turlock, CA", "2025", 
+    
+) %>% 
+detailed_entries(degree, dates, uni, loc)
+```
+
+# Professional Positions
+```{r professional}
+tribble(
+    ~ role, ~ company, ~ loc, ~ dates,
+  "Veterinary Technician", "Standiford Veterinary Center", "Modesto, CA", "04/2022-Present",
+ 
+) %>% 
+  detailed_entries(company, dates, role, loc)
+```
+
+<!-- # Publications Section -->
+
+# Peer-Reviewed Publications
+
+\setlength{\leftskip}{0cm}
+\textbf{2025}
+
+\setlength{\leftskip}{1cm}
+\begin{footnotesize}
+\{Azevedo, L.}, \textbf{Garcia, J.}, \{Garcia, P.}, & \{Hedley, T.} (2025). Elizabethkingia miricola \textit{Elizabethkingia}. Microbiology Resource Announcements.
+\end{footnotesize}
+
+\setlength{\leftskip}{1cm}
+\begin{footnotesize}
+\textbf{Garcia, J.} (2025). DKA and GPR4. CSU Journal of Biochemistry.  
+\end{footnotesize}
+
+
+\setlength{\leftskip}{0cm}
+
+
+# Honors and Awards
+
+California State
+```{r}
+tribble(
+  ~ award, ~ year,
+  "Cum Laude", "2025",
+  "Deans List", "2023-2025"
+) %>%
+  brief_entries(award, year)
+```
+
+
+# Outreach and Service
+\begin{footnotesize}
+Stanislaus State
+\begin{itemize}
+\item Pre-vet club Treasurer (2024-Present)
+\item Science in Our Community (2023-present)
+\end{itemize}
