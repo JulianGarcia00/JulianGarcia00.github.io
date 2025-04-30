@@ -37,16 +37,16 @@ const CONFIG = {
           description: 
             'Taxonomy, History, Morphology, Life Cycle, Epidemiology, Pathogeneis, Diagnostic tools, Treatment, Prevention, Control, and case studies.',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/555C20D0-945D-4E30-8CE0-3B9B8746E88E.jpeg',
+          link: 'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/Giarda%20lamblia.pdf',
         },
         {
           title: 'Biochemistry: Pyruvate Dehydrogenase Complex Deficiency',
           description:
             'Pyruvate Dehydrogenase Complex background, PDCD, diagnostic tools, symptoms, treatment, and disorders associated',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/EA3D6E79-459E-4193-A98F-7505D8843E18.jpeg',
+          link: 'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/Pyruvate%20Dehydrogenase%20Complex%20Deficiency%20(PDCD).pdf',
         },
       ],
     },
