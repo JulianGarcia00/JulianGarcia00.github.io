@@ -33,17 +33,17 @@ const CONFIG = {
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
-          description:
-            '',
+          title: 'Parasitology- Giardia lamblia',
+          description: 
+            'Taxonomy, History, Morphology, Life Cycle, Epidemiology, Pathogeneis, Diagnostic tools, Treatment, Prevention, Control, and case studies.',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
         },
         {
-          title: 'Project Name',
+          title: 'Biochemistry: Pyruvate Dehydrogenase Complex Deficiency',
           description:
-            '',
+            'Pyruvate Dehydrogenase Complex background, PDCD, diagnostic tools, symptoms, treatment, and disorders associated',
           imageUrl:
             'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
           link: 'https://example.com',
