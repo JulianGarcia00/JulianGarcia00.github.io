@@ -17,7 +17,7 @@ const CONFIG = {
       mode: 'automatic', // Mode can be: 'automatic' or 'manual'
       automatic: {
         sortBy: 'stars', // Sort projects by 'stars' or 'updated'
-        limit: 8, // How many projects to display.
+        limit: 2, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
           projects: [], // These projects will not be displayed. example: ['arifszn/my-project1', 'arifszn/my-project2']
@@ -92,11 +92,6 @@ const CONFIG = {
     'Leadership',
     'Time Management',
     'Git',
-    '',
-    '',
-    '',
-    '',
-    '',
   ],
   experiences: [
     {
@@ -154,8 +149,7 @@ const CONFIG = {
       authors: 'Lillyanna Azevedo, Julian Garica, Priscilla Garcia, Taylor Hedley',
       link: 'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/MRA.pdf',
       description:
-        'This is a manuscript in preparation. Isolated from a Russian space station, Elizabethkingia miricola DSM 14571 is a Gram-negative opportunistic and antibiotic resistant human pathogen. Sequencing its genome reveals 4,064 genes, including virulence factors and secondary metabolic clusters. This research could offer further insight into pathogenicity, environmental resilience, resistance mechanisms, and zoonotic risks.
-',
+        'This is a manuscript in preparation. Isolated from a Russian space station, Elizabethkingia miricola DSM 14571 is a Gram-negative opportunistic and antibiotic resistant human pathogen. Sequencing its genome reveals 4,064 genes, including virulence factors and secondary metabolic clusters. This research could offer further insight into pathogenicity, environmental resilience, resistance mechanisms, and zoonotic risks.',
     },
     {
       title: 'Metabolic Acidosis in DKA: GPR4 as a Mediator of Cellular Dysfunction',
