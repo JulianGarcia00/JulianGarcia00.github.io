@@ -152,7 +152,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'Microbiology Resource Announcements',
       authors: 'Lillyanna Azevedo, Julian Garica, Priscilla Garcia, Taylor Hedley',
-      link: '',
+      link: 'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/MRA.pdf',
       description:
         'This is a manuscript in preparation. Isolated from a Russian space station, Elizabethkingia miricola DSM 14571 is a Gram-negative opportunistic and antibiotic resistant human pathogen. Sequencing its genome reveals 4,064 genes, including virulence factors and secondary metabolic clusters. This research could offer further insight into pathogenicity, environmental resilience, resistance mechanisms, and zoonotic risks.
 ',
@@ -162,7 +162,7 @@ const CONFIG = {
       conferenceName: '',
       journalName: 'California State University Journal of Biochemistry',
       authors: 'Julian Garcia',
-      link: '',
+      link: 'https://github.com/JulianGarcia00/JulianGarcia00.github.io/raw/main/Biochem%20second%20draft.pdf',
       description:
         'This is a manuscript in preparation. Acidosis, a key feature of diabetic ketoacidosis (DKA) and metabolic disorders, contributes to kidney and vascular injury. The proton-sensing receptor GPR4 plays a central role in mediating this damage. Upon activation by low pH, GPR4 triggers ER stress, apoptosis, and inflammation. Studies using LDH release and cAMP assays show that GPR4 activation increases cell damage and apoptosis in renal and endothelial cells, while GPR4 silencing reduces these effects. In endothelial cells, GPR4 also upregulates ER stress markers like CHOP and GRP78, promoting dysfunction through inflammation and oxidative stress. These findings highlight GPR4 as a potential therapeutic target in acidotic conditions such as DKA.',
     },
